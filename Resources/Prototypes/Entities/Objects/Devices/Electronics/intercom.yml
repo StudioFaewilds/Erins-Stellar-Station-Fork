@@ -12,3 +12,9 @@
       - IntercomElectronics
   - type: StaticPrice
     price: 55
+    # ST testing of ES falloff start
+  - type: ESRadioFalloff
+    MaxClearSendDistance: 15f
+    MaxSendDistance: 50f
+    FalloffInterjectionDataset: "ESRadioFalloffInterjections"
+    # ST end
