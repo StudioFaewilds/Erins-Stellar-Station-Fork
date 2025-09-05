@@ -1044,12 +1044,19 @@
   - type: IconSmooth
     key: wallsbase # Stellar
     base: tallmetal
+  # Stellar begin
   - type: RandomIconSmooth
     randomStates:
-    - metalwallb
-    - metalwallc
-    - metalwalld
+    - tallmetal
+    - tallmetal
+    - tallmetal
+    - tallmetal
+    - tallmetalb
+    - tallmetalc
+    - tallmetald
+    - tallmetald
   - type: Appearance
+  #Stellar end
 
 
 - type: entity

@@ -5,7 +5,7 @@
         "y": 64
     },
     "license": "LicenseRef-Wallening",
-    "copyright": "By AftrLite // wall variants made by StudioFaewilds. (Those labelled metalwall instead of tallmetal)",
+    "copyright": "By AftrLite // wall variants made by StudioFaewilds. (Those labelled b, c and d)",
     "states": [
         {
             "name": "full"
@@ -41,110 +41,110 @@
         {
             "name": "tallmetal7",
             "directions": 4
-        }.,
+        },
         {
             "name": "fullb"
         },
         {
-            "name": "metalwallb0",
+            "name": "tallmetalb0",
             "directions": 4
         },
         {
-            "name": "metalwallb1",
+            "name": "tallmetalb1",
             "directions": 4
         },
         {
-            "name": "metalwallb2",
+            "name": "tallmetalb2",
             "directions": 4
         },
         {
-            "name": "metalwallb3",
+            "name": "tallmetalb3",
             "directions": 4
         },
         {
-            "name": "metalwallb4",
+            "name": "tallmetalb4",
             "directions": 4
         },
         {
-            "name": "metalwallb5",
+            "name": "tallmetalb5",
             "directions": 4
         },
         {
-            "name": "metalwallb6",
+            "name": "tallmetalb6",
             "directions": 4
         },
         {
-            "name": "metalwallb7",
+            "name": "tallmetalb7",
             "directions": 4
-        }.,
+        },
         {
             "name": "fullc"
         },
         {
-            "name": "metalwallc0",
+            "name": "tallmetalc0",
             "directions": 4
         },
         {
-            "name": "metalwallc1",
+            "name": "tallmetalc1",
             "directions": 4
         },
         {
-            "name": "metalwallc2",
+            "name": "tallmetalc2",
             "directions": 4
         },
         {
-            "name": "metalwallc3",
+            "name": "tallmetalc3",
             "directions": 4
         },
         {
-            "name": "metalwallc4",
+            "name": "tallmetalc4",
             "directions": 4
         },
         {
-            "name": "metalwallc5",
+            "name": "tallmetalc5",
             "directions": 4
         },
         {
-            "name": "metalwallc6",
+            "name": "tallmetalc6",
             "directions": 4
         },
         {
-            "name": "metalwallc7",
+            "name": "tallmetalc7",
             "directions": 4
-        }.,
+        },
         {
             "name": "fulld"
         },
         {
-            "name": "metalwalld0",
+            "name": "tallmetald0",
             "directions": 4
         },
         {
-            "name": "metalwalld1",
+            "name": "tallmetald1",
             "directions": 4
         },
         {
-            "name": "metalwalld2",
+            "name": "tallmetald2",
             "directions": 4
         },
         {
-            "name": "metalwalld3",
+            "name": "tallmetald3",
             "directions": 4
         },
         {
-            "name": "metalwalld4",
+            "name": "tallmetald4",
             "directions": 4
         },
         {
-            "name": "metalwalld5",
+            "name": "tallmetald5",
             "directions": 4
         },
         {
-            "name": "metalwalld6",
+            "name": "tallmetald6",
             "directions": 4
         },
         {
-            "name": "metalwalld7",
+            "name": "tallmetald7",
             "directions": 4
         }
     ]
