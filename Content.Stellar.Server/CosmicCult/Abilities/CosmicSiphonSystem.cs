@@ -1,5 +1,10 @@
+// SPDX-FileCopyrightText: 2025 AftrLite
+// SPDX-FileCopyrightText: 2025 Janet Blackquill <uhhadd@gmail.com>
+//
+// SPDX-License-Identifier: LicenseRef-CosmicCult
+
 using Content.Server.Ghost;
-using Content.Server.Light.Components;
+using Content.Shared.Light.Components;
 using Content.Stellar.Shared.CosmicCult;
 using Content.Stellar.Shared.CosmicCult.Components;
 using Content.Shared.Alert;
@@ -25,7 +30,7 @@ public sealed class CosmicSiphonSystem : EntitySystem
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
-    [Dependency] private readonly SharedStatusEffectsSystem _statusEffects = default!;
+    [Dependency] private readonly StatusEffectsSystem _statusEffects = default!;
     [Dependency] private readonly CosmicCultSystem _cosmicCult = default!;
 
     private readonly HashSet<Entity<PoweredLightComponent>> _lights = [];

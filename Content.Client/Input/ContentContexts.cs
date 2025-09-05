@@ -55,6 +55,7 @@ namespace Content.Client.Input
             human.AddFunction(EngineKeyFunctions.MoveLeft);
             human.AddFunction(EngineKeyFunctions.MoveRight);
             human.AddFunction(EngineKeyFunctions.Walk);
+            human.AddFunction(ContentKeyFunctions.ToggleKnockdown);
             human.AddFunction(ContentKeyFunctions.SwapHands);
             human.AddFunction(ContentKeyFunctions.SwapHandsReverse);
             human.AddFunction(ContentKeyFunctions.Drop);
@@ -111,6 +112,8 @@ namespace Content.Client.Input
             aghost.AddFunction(ContentKeyFunctions.TryPullObject);
             aghost.AddFunction(ContentKeyFunctions.MovePulledObject);
             aghost.AddFunction(ContentKeyFunctions.ReleasePulledObject);
+            aghost.AddFunction(ContentKeyFunctions.RotateObjectClockwise); // Stellar - admins should be able to do that
+            aghost.AddFunction(ContentKeyFunctions.RotateObjectCounterclockwise); // Stellar - admins should be able to do that
 
             var ghost = contexts.New("ghost", "human");
             ghost.AddFunction(EngineKeyFunctions.MoveUp);

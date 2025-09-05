@@ -36,6 +36,12 @@
   - ClothingNeckTransPin
   - ClothingNeckAutismPin
   - ClothingNeckGoldAutismPin
+  - OffsetCane
+  - OffsetCaneWood
+  - OffsetCaneClown
+  - OffsetCaneMime
+  - OffsetCaneNT
+  - Cane
   - TowelColorBlack
   - TowelColorDarkBlue
   - TowelColorDarkGreen
@@ -153,7 +159,6 @@
   minLimit: 0
   loadouts:
   - HoPHead
-  - HoPBeret
 
 - type: loadoutGroup
   id: HoPJumpsuit
@@ -328,7 +333,7 @@
 
 - type: loadoutGroup
   id: ChaplainHead
-  name: loadout-group-chaplain-head
+  name: loadout-group-cleric-head # Stellar - Chaplains to Clerics
   minLimit: 0
   loadouts:
   - ChaplainHead
@@ -339,14 +344,14 @@
 
 - type: loadoutGroup
   id: ChaplainMask
-  name: loadout-group-chaplain-mask
+  name: loadout-group-cleric-mask # Stellar - Chaplains to Clerics
   minLimit: 0
   loadouts:
   - ChaplainMask
 
 - type: loadoutGroup
   id: ChaplainJumpsuit
-  name: loadout-group-chaplain-jumpsuit
+  name: loadout-group-cleric-jumpsuit # Stellar - Chaplains to Clerics
   loadouts:
   - ChaplainJumpsuit
   - ChaplainJumpskirt
@@ -355,7 +360,7 @@
 
 - type: loadoutGroup
   id: ChaplainOuterClothing
-  name: loadout-group-chaplain-outerclothing
+  name: loadout-group-cleric-outerclothing # Stellar - Chaplains to Clerics
   minLimit: 0
   loadouts:
   - ChaplainPlagueSuit
@@ -365,10 +370,21 @@
 
 - type: loadoutGroup
   id: ChaplainNeck
-  name: loadout-group-chaplain-neck
+  name: loadout-group-cleric-neck # Stellar - Chaplains to Clerics
   minLimit: 0
   loadouts:
   - ChaplainNeck
+
+- type: loadoutGroup
+  id: ChaplainBible
+  name: loadout-group-chaplain-bible
+  minLimit: 1
+  loadouts:
+  - Bible
+  - BibleDruid
+  - BibleNanoTrasen
+  - BibleSatanic
+  - BibleTanakh
 
 - type: loadoutGroup
   id: JanitorHead

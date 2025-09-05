@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 AftrLite
+#
+# SPDX-License-Identifier: LicenseRef-CosmicCult
+
 - type: entity
   parent: BaseGameRule
   id: CosmicCult
@@ -23,7 +27,6 @@
       blacklist:
         components:
         - AntagImmune
-        - BibleUser
       components:
       - type: CosmicCult
       mindRoles:

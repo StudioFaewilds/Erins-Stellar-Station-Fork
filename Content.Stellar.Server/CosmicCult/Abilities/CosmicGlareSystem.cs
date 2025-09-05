@@ -1,13 +1,18 @@
+// SPDX-FileCopyrightText: 2025 AftrLite
+// SPDX-FileCopyrightText: 2025 Janet Blackquill <uhhadd@gmail.com>
+//
+// SPDX-License-Identifier: LicenseRef-CosmicCult
+
 using System.Linq;
 using Content.Server.Bible.Components;
 using Content.Server.Flash;
-using Content.Server.Light.Components;
-using Content.Server.Light.EntitySystems;
 using Content.Server.Stunnable;
 using Content.Stellar.Shared.CosmicCult;
 using Content.Stellar.Shared.CosmicCult.Components;
 using Content.Shared.Effects;
 using Content.Shared.Interaction;
+using Content.Shared.Light.Components;
+using Content.Shared.Light.EntitySystems;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Physics;
 using Content.Shared.Silicons.Borgs.Components;
@@ -21,7 +26,7 @@ public sealed class CosmicGlareSystem : EntitySystem
     [Dependency] private readonly CosmicCultSystem _cult = default!;
     [Dependency] private readonly EntityLookupSystem _lookup = default!;
     [Dependency] private readonly FlashSystem _flash = default!;
-    [Dependency] private readonly PoweredLightSystem _poweredLight = default!;
+    [Dependency] private readonly SharedPoweredLightSystem _poweredLight = default!;
     [Dependency] private readonly StunSystem _stun = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedColorFlashEffectSystem _color = default!;
@@ -71,7 +76,7 @@ public sealed class CosmicGlareSystem : EntitySystem
 
             if (HasComp<BorgChassisComponent>(targetEnt))
             {
-                _stun.TryParalyze(targetEnt, uid.Comp.CosmicGlareDuration / 2, true);
+                _stun.TryAddParalyzeDuration(targetEnt, uid.Comp.CosmicGlareDuration / 2);
             }
 
             _color.RaiseEffect(Color.CadetBlue, new List<EntityUid>() { targetEnt }, Filter.Pvs(targetEnt, entityManager: EntityManager));

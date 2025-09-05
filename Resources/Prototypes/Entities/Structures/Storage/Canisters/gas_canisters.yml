@@ -15,7 +15,7 @@
         state: shadow-large
       offset: 0, -0.35
     - type: Sprite
-      drawdepth: Walls
+      drawdepth: Mobs # Stellar - Wallening
       offset: 0, 0.1
       sprite: _ST/Tileset/Atmos/canisters.rsi
       noRot: true
@@ -46,7 +46,9 @@
             3: { state: can-o3, shader: "unshaded" }
     - type: ActivatableUI
       key: enum.GasCanisterUiKey.Key
-    - type: ActivatableUIRequiresLock
+    - type: UIRequiresLock
+      userInterfaceKeys:
+      - enum.GasCanisterUiKey.Key
     - type: UserInterface
       interfaces:
         enum.GasCanisterUiKey.Key:
@@ -121,6 +123,8 @@
     - type: GuideHelp
       guides:
       - GasCanisters
+    - type: Paintable
+      group: Canisters
 
 - type: entity
   parent: GasCanister

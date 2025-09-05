@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2025 AftrLite
+// SPDX-FileCopyrightText: 2025 Janet Blackquill <uhhadd@gmail.com>
+//
+// SPDX-License-Identifier: LicenseRef-CosmicCult
+
 using Content.Stellar.Server.CosmicCult.Components;
 using Content.Server.Actions;
 using Content.Server.Administration.Logs;
@@ -10,11 +15,11 @@ using Content.Server.EUI;
 using Content.Server.GameTicking.Rules;
 using Content.Server.GameTicking;
 using Content.Server.Ghost;
-using Content.Server.Light.Components;
+using Content.Shared.Light.Components;
 using Content.Server.Objectives.Components;
 using Content.Server.Popups;
 using Content.Server.Radio.Components;
-using Content.Server.Roles;
+using Content.Shared.Roles.Components;
 using Content.Server.RoundEnd;
 using Content.Server.Shuttles.Systems;
 using Content.Server.Voting.Managers;
@@ -750,7 +755,7 @@ public sealed class CosmicCultRuleSystem : GameRuleSystem<CosmicCultRuleComponen
             return;
         var cosmicGamerule = cult.Comp;
 
-        _stun.TryKnockdown(uid, TimeSpan.FromSeconds(2), true);
+        _stun.TryKnockdown(uid.Owner, TimeSpan.FromSeconds(2), true);
         foreach (var actionEnt in uid.Comp.ActionEntities) _actions.RemoveAction(actionEnt);
 
         if (TryComp<IntrinsicRadioTransmitterComponent>(uid, out var transmitter))
