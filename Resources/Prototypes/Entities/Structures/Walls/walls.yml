@@ -10,7 +10,7 @@
     - Wall
   components:
   - type: Anchorable
-    flags: 
+    flags:
     - Anchorable
   - type: Rotatable
   - type: RangedDamageSound
@@ -1044,6 +1044,12 @@
   - type: IconSmooth
     key: wallsbase # Stellar
     base: tallmetal
+  - type: RandomIconSmooth
+    randomStates:
+    - metalwallb
+    - metalwallc
+    - metalwalld
+  - type: Appearance
 
 
 - type: entity

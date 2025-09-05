@@ -5,7 +5,7 @@
         "y": 64
     },
     "license": "LicenseRef-Wallening",
-    "copyright": "By AftrLite",
+    "copyright": "By AftrLite // wall variants made by StudioFaewilds. (Those labelled metalwall instead of tallmetal)",
     "states": [
         {
             "name": "full"
@@ -40,6 +40,111 @@
         },
         {
             "name": "tallmetal7",
+            "directions": 4
+        }.,
+        {
+            "name": "fullb"
+        },
+        {
+            "name": "metalwallb0",
+            "directions": 4
+        },
+        {
+            "name": "metalwallb1",
+            "directions": 4
+        },
+        {
+            "name": "metalwallb2",
+            "directions": 4
+        },
+        {
+            "name": "metalwallb3",
+            "directions": 4
+        },
+        {
+            "name": "metalwallb4",
+            "directions": 4
+        },
+        {
+            "name": "metalwallb5",
+            "directions": 4
+        },
+        {
+            "name": "metalwallb6",
+            "directions": 4
+        },
+        {
+            "name": "metalwallb7",
+            "directions": 4
+        }.,
+        {
+            "name": "fullc"
+        },
+        {
+            "name": "metalwallc0",
+            "directions": 4
+        },
+        {
+            "name": "metalwallc1",
+            "directions": 4
+        },
+        {
+            "name": "metalwallc2",
+            "directions": 4
+        },
+        {
+            "name": "metalwallc3",
+            "directions": 4
+        },
+        {
+            "name": "metalwallc4",
+            "directions": 4
+        },
+        {
+            "name": "metalwallc5",
+            "directions": 4
+        },
+        {
+            "name": "metalwallc6",
+            "directions": 4
+        },
+        {
+            "name": "metalwallc7",
+            "directions": 4
+        }.,
+        {
+            "name": "fulld"
+        },
+        {
+            "name": "metalwalld0",
+            "directions": 4
+        },
+        {
+            "name": "metalwalld1",
+            "directions": 4
+        },
+        {
+            "name": "metalwalld2",
+            "directions": 4
+        },
+        {
+            "name": "metalwalld3",
+            "directions": 4
+        },
+        {
+            "name": "metalwalld4",
+            "directions": 4
+        },
+        {
+            "name": "metalwalld5",
+            "directions": 4
+        },
+        {
+            "name": "metalwalld6",
+            "directions": 4
+        },
+        {
+            "name": "metalwalld7",
             "directions": 4
         }
     ]
