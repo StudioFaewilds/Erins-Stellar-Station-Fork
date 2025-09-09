@@ -1101,10 +1101,7 @@
 - type: entity
   parent: WallSolid
   id: WallSolidRust
-  name: DEPRECATED
-  description: DEPRECATED, DO NOT MAP
   suffix: rusted
-  categories: [ DoNotMap ]
   components:
   - type: Sprite
     sprite: _ST/Tileset/Walls/metal.rsi # Stellar
