@@ -1006,7 +1006,7 @@
   components:
   - type: Sprite
     # Begin Stellar - Wallening
-    sprite: _ST/Tileset/Walls/metal.rsi
+    sprite: _ST/Tileset/Walls/tallmetal.rsi
   - type: SpriteFade
     # End Stellar - Wallening
   - type: WallReplacementMarker
@@ -1014,7 +1014,7 @@
     graph: Girder
     node: wall
   - type: Icon
-    sprite: _ST/Tileset/Walls/metal.rsi # Stellar
+    sprite: _ST/Tileset/Walls/tallmetal.rsi # Stellar
   - type: RCDDeconstructable
     cost: 6
     delay: 8
@@ -1104,9 +1104,9 @@
   suffix: rusted
   components:
   - type: Sprite
-    sprite: _ST/Tileset/Walls/metal.rsi # Stellar
+    sprite: _ST/Tileset/Walls/tallmetal.rsi # Stellar
   - type: Icon
-    sprite: _ST/Tileset/Walls/metal.rsi # Stellar
+    sprite: _ST/Tileset/Walls/tallmetal.rsi # Stellar
     state: full
   - type: Construction
     graph: Girder
