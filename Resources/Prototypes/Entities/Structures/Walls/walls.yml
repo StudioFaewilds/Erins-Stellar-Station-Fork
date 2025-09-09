@@ -1043,7 +1043,7 @@
         acts: ["Destruction"]
   - type: IconSmooth
     key: wallsbase # Stellar
-    base: tallmetal
+    base: tallmetal # Stellar
   # Stellar begin
   - type: RandomIconSmooth
     randomStates:
@@ -1101,19 +1101,22 @@
 - type: entity
   parent: WallSolid
   id: WallSolidRust
+  name: DEPRECATED
+  description: DEPRECATED, DO NOT MAP
   suffix: rusted
+  categories: [ DoNotMap ]
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: _ST/Tileset/Walls/metal.rsi # Stellar
   - type: Icon
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: _ST/Tileset/Walls/metal.rsi # Stellar
     state: full
   - type: Construction
     graph: Girder
     node: wallrust
   - type: IconSmooth
     key: walls
-    base: solid
+    base: tallmetal
   - type: Destructible
     thresholds:
     - trigger:
